@@ -1,0 +1,959 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67658
+\numeric off
+( 
+\begin_inset Formula $NLP$
+\end_inset
+
+ | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים, עומרי טויטו | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641, 208472761
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $\text{Test }$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+עבור כל מודל נספק את 
+\begin_inset Formula $\text{test accuracy and loss }$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור המודל 
+\begin_inset Formula $Log\ Linear-one\ hot$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $test\ acc$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{Log Linear model with one hot, test accuracy is: 0.5576171875}
+\]
+
+\end_inset
+
+
+\begin_inset Formula $test\ Loss$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{Log Linear model with one hot, test Loss is: 0.4564312547445297}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור המודל 
+\begin_inset Formula $Log\ Linear-w2v$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $test\ acc$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{Log Linear model with w2v, test accuracy is: 0.83203125}
+\]
+
+\end_inset
+
+
+\begin_inset Formula $test\ Loss$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{Log Linear model with w2v, test Loss is: 0.37926478683948517}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור המודל 
+\begin_inset Formula $LSTM$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $test\ acc$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{LSTM model with w2v, test accuracy is: 0.8623046875}
+\]
+
+\end_inset
+
+
+\begin_inset Formula $test\ Loss$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{LSTM model with w2v, test Loss is: 0.3155819773674011}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+עבור כל מודל נספק את ה 
+\begin_inset Formula $accuracy$
+\end_inset
+
+ עבור כל תת סט מיוחד:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור המודל 
+\begin_inset Formula $Log\ Linear-one\ hot$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $negated\ acc$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{Log Linear model with one hot, negated accuracy is: 0.4838709533214569}
+\]
+
+\end_inset
+
+
+\begin_inset Formula $rare\ words\ acc$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{Log Linear model with one hot, rare accuracy is: 0.2800000011920929}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור המודל 
+\begin_inset Formula $Log\ Linear-w2v$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $negated\ acc$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{Log Linear model with w2v, negated accuracy is: 0.5806451439857483}
+\]
+
+\end_inset
+
+
+\begin_inset Formula $rare\ words\ acc$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{Log Linear model with w2v, rare accuracy is: 0.7599999904632568}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור המודל 
+\begin_inset Formula $LSTM$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $negated\ acc$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{LSTM model with w2v, negated accuracy is: 0.7096773982048035}
+\]
+
+\end_inset
+
+
+\begin_inset Formula $rare\ words\ acc$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\text{LSTM model with w2v, rare accuracy is: 0.7799999713897705}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $\text{ Comparing the different models }$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נשווה את התוצאות בין שני המודלים הלוג לינארים:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+גרפים עבור המודל הלינארי עם 
+\begin_inset Formula $one\ hot$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Accuracy$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figure_1.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Loss$
+\end_inset
+
+:
+\begin_inset Graphics
+	filename Figure_2.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+גרף עבור המודל הלינארי עם 
+\begin_inset Formula $w2v$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Accuracy$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figure_3.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Loss$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figure_4.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+הסבר על ההבדל בין המודלים:
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+אנחנו רואים כי במודל של ה 
+\begin_inset Formula $one\ hot$
+\end_inset
+
+ ה 
+\begin_inset Formula $accuracy$
+\end_inset
+
+ נמוך יותר מאשר המודל של 
+\begin_inset Formula $w2v$
+\end_inset
+
+, וגם ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ יותר גבוה מהמודל של 
+\begin_inset Formula $w2v$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\series bold
+המודל הטוב יותר הוא המודל של 
+\begin_inset Formula $w2v$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הסבר:
+\series default
+ המודל של 
+\begin_inset Formula $w2v$
+\end_inset
+
+ מקודד את המילה בצורה טובה יותר, ומתייחס למשמעות של המילה לפי פיצ'רים רלוונטים
+ יותר מאר 
+\begin_inset Formula $one\ hot$
+\end_inset
+
+ שמסמן רק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+במיקום של המילה בווקטור.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נשווה את התוצאות לתוצאות את המודל 
+\begin_inset Formula $LSTM$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+גרף 
+\begin_inset Formula $accuracy$
+\end_inset
+
+: 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figure_5.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+גרף 
+\begin_inset Formula $Loss$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figure_6.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+המודל הטוב יותר הוא: 
+\series default
+המודל 
+\begin_inset Formula $LSTM$
+\end_inset
+
+, ניתן לראות כי ה 
+\begin_inset Formula $accuracy$
+\end_inset
+
+ שלו יותר גבוה מהמודל הלוג לינארי, וגם ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ שלו נמוך יותר מהמודל הלוג לינארי.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+הסבר: 
+\series default
+מודל זה משתמש ביותר שכבות ברשת וגם עושה השוואה בין שכבת ה 
+\begin_inset Formula $forward$
+\end_inset
+
+ לשכבת ה 
+\begin_inset Formula $backward$
+\end_inset
+
+, כך שאם מילים מסוימות במשפט משפיעות על מילים שלפניהן או מילים שאחריהן אנו
+ נבחר את האופציה הטובה יותר.
+ לאן הוא מודל שחוזה באופן מדוייק יותר.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נשווה את התוצאות בין שני תתי הסטים המיוחדים: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור 
+\begin_inset Formula $RARE$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+המודל שהוציא את התוצאות הנמוכות ביותר:
+\series default
+ הוא המודל הלוג לינארי עם 
+\begin_inset Formula $one\ hot$
+\end_inset
+
+ ווקטור, משום שהוא לא ראה את רוב המילים ולכן החזיר עליהם ווקטורים של אפסים.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+המודל שהוציא את התוצאות הגבוהות ביותר: 
+\series default
+הוא המודל 
+\begin_inset Formula $LSTM$
+\end_inset
+
+ משום שהוא מודל מורכב יותר שחוזה בצורה טובה יותר.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור 
+\begin_inset Formula $NEGATED$
+\end_inset
+
+: 
+\begin_inset Newline newline
+\end_inset
+
+המודל שהוציא את התוצאות הנמוכות ביותר:
+\series default
+ הוא המודל הלוג לינארי עם 
+\begin_inset Formula $one\ hot$
+\end_inset
+
+ ווקטור, משום שהוא לא יכול להתמודד עם זוג כזה של שלילה ולכן הוא פספס הרבה.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+המודל שהוציא את התוצאות הגבוהות ביותר: 
+\series default
+הוא המודל 
+\begin_inset Formula $LSTM$
+\end_inset
+
+ משום שהוא מודל מורכב יותר שחוזה בצורה טובה יותר, ולכן הוא יכול להתמודד
+ עם משפטי שלילה בצורה טובה יותר.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,33 @@
+
+
+################################################
+
+Log Linear model with one hot, rare accuracy is: 0.2800000011920929
+Log Linear model with one hot, rare Loss is: 0.8377810323238373
+Log Linear model with one hot, negated accuracy is: 0.4838709533214569
+Log Linear model with one hot, negated Loss is: 0.738016206891306
+Log Linear model with one hot, test accuracy is: 0.5576171875
+Log Linear model with one hot, test Loss is: 0.4564312547445297
+
+###########################################################
+
+Log Linear model with w2v, rare accuracy is: 0.7599999904632568
+Log Linear model with w2v, rare Loss is: 0.7817696461558807
+Log Linear model with w2v, negated accuracy is: 0.5806451439857483
+Log Linear model with w2v, negated Loss is: 0.7163262042787767
+Log Linear model with w2v, test accuracy is: 0.83203125
+Log Linear model with w2v, test Loss is: 0.37926478683948517
+
+############################################################
+
+LSTM model with w2v, rare accuracy is: 0.7799999713897705
+LSTM model with w2v, rare Loss is: 0.7170590058900416
+LSTM model with w2v, negated accuracy is: 0.7096773982048035
+LSTM model with w2v, negated Loss is: 0.6617719110555856
+LSTM model with w2v, test accuracy is: 0.8623046875
+LSTM model with w2v, test Loss is: 0.3155819773674011
+
+
+
+
+
