@@ -1,0 +1,1345 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67658
+\numeric off
+( 
+\begin_inset Formula $NLP$
+\end_inset
+
+ | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים, עומרי טויטו | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641, 208472761
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+תיאורטי:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נתונים:
+\series default
+ ההסתברות של התא להשתנות מגבוה לנמוך ולהיפך: 
+\begin_inset Formula 
+\[
+p(change)=\begin{cases}
+L\Rightarrow H & 0.4\\
+L\Rightarrow L & 0.6\\
+H\Rightarrow L & 0.5\\
+H\Rightarrow H & 0.5
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ההסתברות לייצור נוקליאוטידים במצב 
+\begin_inset Formula $H$
+\end_inset
+
+ היא: 
+\begin_inset Formula 
+\[
+p(H)=\begin{cases}
+A & 0.2\\
+C & 0.3\\
+G & 0.3\\
+T & 0.2
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ההסתברות לייצור נוקליאוטידים במצב 
+\begin_inset Formula $L$
+\end_inset
+
+ היא: 
+\begin_inset Formula 
+\[
+p(L)=\begin{cases}
+A & 0.3\\
+C & 0.2\\
+G & 0.2\\
+T & 0.3
+\end{cases}
+\]
+
+\end_inset
+
+
+\series bold
+בהינתן הסדרה 
+\begin_inset Formula $S=ACCGTGCA$
+\end_inset
+
+, נחשב לפי האלגוריתם של 
+\begin_inset Formula $Viterbi$
+\end_inset
+
+ את המצב הטוב ביותר.
+ נתון כי המצב לפני תחילת הסדרה היה 
+\begin_inset Formula $H$
+\end_inset
+
+:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+פתרון:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+נבדוק עבור 
+\begin_inset Formula $s_{0}=A$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+p(H\Rightarrow H)\cdot p(A|H)=0.5\cdot0.2=0.1
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p(H\Rightarrow L)\cdot p(A|L)=0.5\cdot0.3=0.15
+\]
+
+\end_inset
+
+לכן 
+\begin_inset Formula $S_{0}=L$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+נבדוק עבור 
+\begin_inset Formula $s_{1}=C$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+p(s_{0})\cdot p(L\Rightarrow H)\cdot p(C|H)=0.15\cdot0.4\cdot0.3=0.018
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p(s_{0})\cdot p(L\Rightarrow L)\cdot p(C|L)=0.15\cdot0.6\cdot0.2=0.018
+\]
+
+\end_inset
+
+ 
+\series default
+שני המצבים קיבלו את אותה התוצאה, לכן נבדוק מה יהיה לנו יותר יעיל למצב הבא.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+נבדוק עבור 
+\begin_inset Formula $s_{2}=C$
+\end_inset
+
+ בהינתן שהמצב הקודם הוא 
+\begin_inset Formula $L$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+p(s_{1})\cdot p(L\Rightarrow L)\cdot p(C|L)=0.018\cdot0.6\cdot0.2=0.00216
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p(s_{1})\cdot p(L\Rightarrow H)\cdot p(C|H)=0.018\cdot0.4\cdot0.3=0.00216
+\]
+
+\end_inset
+
+ נבדוק עבור 
+\begin_inset Formula $s_{2}=C$
+\end_inset
+
+ בהינתן שהמצב הקודם הוא 
+\begin_inset Formula $H$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+p(s_{1})\cdot p(H\Rightarrow L)\cdot p(C|L)=0.018\cdot0.5\cdot0.2=0.0018
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p(s_{1})\cdot p(H\Rightarrow H)\cdot p(C|H)=0.018\cdot0.5\cdot0.3=0.0027
+\]
+
+\end_inset
+
+ קיבלנו כי ההסתברות הגבוה ביותר מתקבלת אם 
+\begin_inset Formula $S_{1}=H$
+\end_inset
+
+ וגם 
+\begin_inset Formula $S_{2}=H$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+נבדוק עבור 
+\begin_inset Formula $s_{3}=G$
+\end_inset
+
+:
+\series default
+
+\begin_inset Formula 
+\[
+p(s_{2})\cdot p(H\Rightarrow L)\cdot p(G|L)=0.0027\cdot0.5\cdot0.2=0.00027
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p(s_{2})\cdot p(H\Rightarrow H)\cdot p(G|H)=0.0027\cdot0.5\cdot0.3=0.000405
+\]
+
+\end_inset
+
+
+\series bold
+לכן 
+\begin_inset Formula $S_{3}=H$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+נבדוק עבור 
+\begin_inset Formula $s_{4}=T$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+p(s_{3})\cdot p(H\Rightarrow L)\cdot p(T|L)=0.000405\cdot0.5\cdot0.3=0.00006075
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p(s_{3})\cdot p(H\Rightarrow H)\cdot p(T|H)=0.000405\cdot0.5\cdot0.2=0.0000405
+\]
+
+\end_inset
+
+ לכן 
+\begin_inset Formula $S_{4}=L$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+נבדוק עבור 
+\begin_inset Formula $s_{5}=G$
+\end_inset
+
+:
+\series default
+
+\begin_inset Formula 
+\[
+p(s_{4})\cdot p(L\Rightarrow L)\cdot p(G|L)=0.00006075\cdot0.6\cdot0.2=0.00000729
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p(s_{4})\cdot p(L\Rightarrow H)\cdot p(G|H)=0.00006075\cdot0.4\cdot0.3=0.00000729
+\]
+
+\end_inset
+
+ שני המצבים קיבלו את אותה התוצאה, לכן נבדוק מה יהיה לנו יותר יעיל למצב הבא.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+נבדוק עבור 
+\begin_inset Formula $s_{6}=C$
+\end_inset
+
+ בהינתן שהמצב הקודם הוא 
+\begin_inset Formula $L$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+p(s_{5})\cdot p(L\Rightarrow L)\cdot p(C|L)=0.00000729\cdot0.6\cdot0.2=8.74800000e^{-7}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p(s_{5})\cdot p(L\Rightarrow H)\cdot p(C|H)=0.00000729\cdot0.4\cdot0.3=8.74800000e^{-7}
+\]
+
+\end_inset
+
+ נבדוק עבור 
+\begin_inset Formula $s_{6}=C$
+\end_inset
+
+ בהינתן שהמצב הקודם הוא 
+\begin_inset Formula $H$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+p(s_{5})\cdot p(H\Rightarrow L)\cdot p(C|L)=0.00000729\cdot0.5\cdot0.2=7.29000000e^{-7}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p(s_{5})\cdot p(H\Rightarrow H)\cdot p(C|H)=0.00000729\cdot0.5\cdot0.3=0.000010935
+\]
+
+\end_inset
+
+ קיבלנו כי ההסתברות הגבוה ביותר מתקבלת אם 
+\begin_inset Formula $S_{5}=H$
+\end_inset
+
+ וגם 
+\begin_inset Formula $S_{6}=H$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+נבדוק עבור 
+\begin_inset Formula $s_{7}=A$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+p(s_{6})\cdot p(H\Rightarrow H)\cdot p(A|H)=0.000010935\cdot0.5\cdot0.2=1.09350000e^{-7}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+p(s_{6})\cdot p(H\Rightarrow L)\cdot p(A|L)=0.000010935\cdot0.5\cdot0.3=1.64025000e^{-7}
+\]
+
+\end_inset
+
+ לכן 
+\begin_inset Formula $s_{7}=L$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+לסיכום: 
+\series default
+אנו נתחיל המצב 
+\begin_inset Formula $H$
+\end_inset
+
+ ומייד נעבור ל 
+\begin_inset Formula $L$
+\end_inset
+
+ נעבור ל 
+\begin_inset Formula $HHH$
+\end_inset
+
+ אחכ נעבור ל 
+\begin_inset Formula $L$
+\end_inset
+
+ אחכ נעבור ל 
+\begin_inset Formula $HH$
+\end_inset
+
+ ונסיים עם 
+\begin_inset Formula $L$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+HLHHHLHHL
+\]
+
+\end_inset
+
+ זאת הסדדרה עם ההסתברות הגבוה ביותר.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נכתוב אלגוריתם 
+\begin_inset Formula $viterbi$
+\end_inset
+
+ עבור מודל 
+\begin_inset Formula $fourgram$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+האלגוריתם נמצא בדף הבא 
+\begin_inset Formula $\Downarrow$
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+input: 
+\series default
+An integer n, parameters q(w|t, u, v) and e(x|s).
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Definitions:
+\series default
+ Define K to be the set of possible tags.
+ Define 
+\begin_inset Formula $K_{−2}$
+\end_inset
+
+ = 
+\begin_inset Formula $K_{−1}$
+\end_inset
+
+ = 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+ = {∗}, and 
+\begin_inset Formula $K_{k}$
+\end_inset
+
+ = K for k = 1 · · · n.
+ Define V to be the set of possible words
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Initialization: 
+\series default
+Set 
+\begin_inset Formula $\pi$
+\end_inset
+
+ (0,
+\begin_inset Formula $\ast,\ast,\ast$
+\end_inset
+
+)=1, 𝜋=𝑛𝑒𝑤_𝑡𝑎𝑏𝑙𝑒[𝑛×|𝑉|×|𝑉|×|𝑉|]
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Algorithm: 
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+for k=1 to n:
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+𝑓𝑜𝑟 𝑡,𝑢,𝑣∈𝐾:
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+𝜋[𝑘,𝑡,𝑢,𝑣]=
+\begin_inset Formula $max_{\ensuremath{\text{𝑤∈𝐾}}}$
+\end_inset
+
+(𝜋[−1,𝑤,𝑡,𝑣]∙𝑞(𝑣∣𝑤,𝑡,𝑢))∙
+\begin_inset Formula $max_{\ensuremath{\text{𝑣}0\text{∈𝑉}}}$
+\end_inset
+
+(
+\begin_inset Formula $𝑣_{0}$
+\end_inset
+
+∣𝑣)
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Return:
+\series default
+ max(𝜋[𝑛,:,:,:])
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+	
+\end_layout
+
+\begin_layout Part
+פרקטי:
+\end_layout
+
+\begin_layout Section
+- 
+\begin_inset Formula $B$
+\end_inset
+
+ - 
+\begin_inset Formula $Most\ likely\ tag$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+הטעויות שהתקבלו הן: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+Known\ words\ Error\ is:0.0704399684933048\\
+Unknown\ words\ Error\ is:0.75043630017452\\
+Total\ Erroris:0.14811123293132666
+\end{align*}
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+- 
+\begin_inset Formula $C$
+\end_inset
+
+ - 
+\begin_inset Formula $HMM-Tagger$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+הטעויות שהתקבלו הן:
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $Add-one\ smoothing-D$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+הטעויות שהתקבלו הן:
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $pseudo-words-E$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+הטעויות שהתקבלו הן:
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
