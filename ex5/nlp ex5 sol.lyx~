@@ -1,0 +1,585 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67658
+\numeric off
+( 
+\begin_inset Formula $NLP$
+\end_inset
+
+ | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים, עומרי טויטו | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641, 208472761
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Formula $\text{\text{Linear Regression}}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+גרף של 
+\begin_inset Formula $\text{accuracy}$
+\end_inset
+
+ כפונקציה של האחוז מהדאטה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Q1 - Figure_1.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+התוצאות שהתקבלו הן: 
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\text{Logistic regression results: }\\
+\text{ Portion: 0.1 - 0.7075596816976127}\\
+\text{Portion: 0.5 - 0.8183023872679045}\\
+\text{ Portion: 1.0 -  0.860079575596817}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Formula $\text{SequenceClassification}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+גרף של 
+\begin_inset Formula $\text{accuracy}$
+\end_inset
+
+ כפונקציה של האחוז מהדאטה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Q2 - Figure_1.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+התוצאות שהתקבלו הן:
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\text{Finetuning results:}\\
+\text{Portion: 0.1:  0.8640583554376657}\\
+\text{Portion: 0.5:  0.8932360742705571}\\
+\text{Portion: 1.0:  0.9131299734748011}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Formula $\text{zero-shot}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ה 
+\begin_inset Formula $accuracy$
+\end_inset
+
+ שקיבלנו היא:
+\series default
+ 
+\begin_inset Formula 
+\[
+Zero-shotresult:0.7712201591511937
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+המודל שקיבל את ה 
+\begin_inset Formula $accuracy$
+\end_inset
+
+ הגבוה ביותר הוא: 
+\series default
+המודל השני 
+\begin_inset Formula $\text{SequenceClassification}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+המודל שהיה הכי רגיש לגודל הדאטה סט הוא: 
+\series default
+המודל הראשון
+\series bold
+ 
+\begin_inset Formula $\text{Linear Regression}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נביא שני יתרונות וחסרונות של מודל 
+\begin_inset Formula $\text{zero-shot}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+יתרונות:
+\end_layout
+
+\begin_layout Enumerate
+מודל זה יכול לסווג מחלקות חדשות מבלי שהא ראה את התיוג שלהן לפניכן.
+ זה יכול לחסוך לנו זמן ומשאבים של תיוג.
+\end_layout
+
+\begin_layout Enumerate
+הוא יכול להכליל טוב יותר, משום שהוא משתמש בידע מוקדם על הקשרים בין המחלקות.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+חסרונות:
+\end_layout
+
+\begin_layout Enumerate
+הוא צריך לקבל כמות ענקית של מידע כדי להכליל טוב, ולהבין את ההבדלים בין המחלקות
+ השונות.
+\end_layout
+
+\begin_layout Enumerate
+הוא סובל מאי וודאות, אי אפשר לדעת עבור אלו משימות הוא טוב עד שננסה ונבדוק.
+ לעומת מודלים האחרים שניתן להצע להם 
+\begin_inset Formula $fine\ tuning$
+\end_inset
+
+ לכמה מחלקות שונות.
+\end_layout
+
+\end_body
+\end_document
