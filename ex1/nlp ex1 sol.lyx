@@ -1,0 +1,1641 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67658
+\numeric off
+( 
+\begin_inset Formula $NLP$
+\end_inset
+
+ | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים, עומרי טויטו | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641, 208472761
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+תיאורטי:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נוכיח את הדרוש: 
+\end_layout
+
+\begin_layout Standard
+תחילה נוכיח את הרמז - נוכיח כי ההסתברות המשלימה לעולם לא לקבל 
+\begin_inset Formula $stop$
+\end_inset
+
+ שווה ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+: 
+\begin_inset Newline newline
+\end_inset
+
+נגדיר משפט באורך 
+\begin_inset Formula $n$
+\end_inset
+
+ להיות 
+\begin_inset Formula $S_{n}$
+\end_inset
+
+, ונגדיר את ההסתברות לקבל את המשפט להיות 
+\begin_inset Formula $P(S_{n})$
+\end_inset
+
+ ואת המאורע נגדיר להיות 
+\begin_inset Formula $A=\sum_{n=0}^{\infty}P(S_{n})$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת נסתכל על המאורע המשלים - 
+\begin_inset Formula $A^{C}$
+\end_inset
+
+, ההסתברות למאורע שווה ל 
+\begin_inset Formula $P\left(A^{C}\right)=\sum P(S_{\infty})$
+\end_inset
+
+ מכיוון שההסתברות של המאורע המשלים שווה לסכום ההסתברויות של כל המשפטים האינסופיי
+ם.
+\end_layout
+
+\begin_layout Standard
+יהי משפט אינסופי 
+\begin_inset Formula $S_{\infty}=w_{1}...w_{n}w_{n+1}...$
+\end_inset
+
+ נחשב את ההסתברות לקבל את המשפט.
+ 
+\begin_inset Formula 
+\[
+P\left(S_{\infty}\right)=P\left(w_{1}\mid START\right)\cdot P\left(w_{2}\mid w_{1}\right)\cdots
+\]
+
+\end_inset
+
+ כאשר 
+\begin_inset Formula $STOP\notin S_{\infty}$
+\end_inset
+
+ מכיוון שהמשפט אינסופי.
+ 
+\end_layout
+
+\begin_layout Standard
+מכיוון שלכל מילה 
+\begin_inset Formula $w_{j}$
+\end_inset
+
+ מתקיים כי 
+\begin_inset Formula $\sum P(w_{i}|w_{j})=1$
+\end_inset
+
+ וגם 
+\begin_inset Formula $𝑃(\text{\ensuremath{𝑆𝑇𝑂𝑃∣𝑤_{j}}})>0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נוסע מכך כי לכל זוג מילים 
+\begin_inset Formula $w_{i},w_{j}\neq STOp$
+\end_inset
+
+ מתקיים כי 
+\begin_inset Formula $P(w_{i}|w_{j})<1$
+\end_inset
+
+ לכן נקבל: 
+\begin_inset Formula 
+\[
+P\left(A_{\infty}\right)=\prod_{w_{i},w_{j}\neq STOP}P\left(w_{i}\mid w_{j}\right)
+\]
+
+\end_inset
+
+קיבלנו מכפלה אינסופית של איברים שקטנים מ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ולכן המכפלה תשאף ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, ולכן:
+\begin_inset Formula 
+\[
+P(A^{C})=0=1-P(A)\Rightarrow P(A)=1
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נתאר מודל 
+\begin_inset Formula $unigram$
+\end_inset
+
+:
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+בתהליך הלמידה המודל יספור את מספר הפעמים שכל אחת מהמילים מופיעה ויחלק בסך
+ כל המילים, כך נקבל את ההסתברות לכל מילה.
+ כלומר, עבור 
+\begin_inset Formula $|corpus|=n$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+P(where)=\frac{count(where)}{n},P(were)=\frac{count(were)}{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת, כאשר הוא יצטרך לחזות את המילה הבאה הוא יסתכל על ההסתברות שלה ויחזיר
+ את המילה עם ההסתברות הגבוה ביותר.
+ עבור משפט - המודל יחשב את מכפלת הסתברות המילים שמרכיבות את המשפט.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+המודל יפעל כך:
+\end_layout
+
+\begin_layout Standard
+בהינתן קלט של משפט הוא יכפול את ההסתברות לקבל את המילים שמופיעות במשפט ויחזיר
+ את המשפט עם ההסתברות הגבוה ביותר שיכולה להתקבל.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+לכן: 
+\end_layout
+
+\begin_layout Itemize
+המודל יחזה את המילה 
+\begin_inset Formula $where$
+\end_inset
+
+ הראשונה רק אם מספר הפעמים שהמילה 
+\begin_inset Formula $where$
+\end_inset
+
+ הופיעה ב 
+\begin_inset Formula $corpus$
+\end_inset
+
+ גדולה ממספר הפעמים שהמילה 
+\begin_inset Formula $were$
+\end_inset
+
+ הופיעה בו.
+ 
+\end_layout
+
+\begin_layout Itemize
+המודל יתקן את המילה 
+\begin_inset Formula $where$
+\end_inset
+
+ השניה להיות 
+\begin_inset Formula $were$
+\end_inset
+
+ רק אם המילה 
+\begin_inset Formula $were$
+\end_inset
+
+ מופיעה יותר פעמים מהמילה 
+\begin_inset Formula $where$
+\end_inset
+
+ ב 
+\begin_inset Formula $corpus$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+המודל יחזיר את אותה ההסתברות עבור שתי המילים אם שתיהן מופיעות אותו מספר
+ של פעמים ב 
+\begin_inset Formula $corpus$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+)ב( 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נתאר מודל 
+\begin_inset Formula $Bigram$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+המודל מקבל משפט ומתקן אותו בהתאם להסתברות של המילה 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+ להופיע אחרי המילה 
+\begin_inset Formula $x_{i-1}$
+\end_inset
+
+.
+ לכן בהינתן משפט המודל מחזיר משפט שלדעתו עם ההסתברות הגבוה ביותר להיות נכון.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+מודל זה יהיה מודל טוב יותר משום ש - 
+\series default
+הוא בודק את ההסתברות לקבל את המילה 
+\begin_inset Formula $where$
+\end_inset
+
+ בהינתן המילה 
+\begin_inset Formula $went$
+\end_inset
+
+.
+ ואת ההסתברות לקבל את המילה 
+\begin_inset Formula $were$
+\end_inset
+
+ בהינתן המילה 
+\begin_inset Formula $went$
+\end_inset
+
+.
+ כמו כן הוא יבדוק את ההסתברות לקבל כל אחת מהמילים 
+\begin_inset Formula $where,were$
+\end_inset
+
+ בהינתן המילה 
+\begin_inset Formula $there$
+\end_inset
+
+.
+ לכן ודל זה יוכל לתקן באופן טוב יתר את הטעות מאשר מודל 
+\begin_inset Formula $unigram$
+\end_inset
+
+ שמסתכל על מילה אחת בלבד.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+משפט יכול לקבל הסתברות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לפי המודל הזה, אם המשפט הזה לא הופיע ב 
+\begin_inset Formula $corpus$
+\end_inset
+
+.
+ זאת יכולה להיות בעיה אם משפט זה הוא נכון אך נדיר ולכן לא נצפה קודם.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+אנו יודעים כי 
+\begin_inset Formula $punseen=\frac{N_{1}}{N}$
+\end_inset
+
+, לכן:
+\begin_inset Formula 
+\[
+1-punseen=1-\frac{N_{1}}{N}=\frac{N-N_{1}}{N}
+\]
+
+\end_inset
+
+ כעת, נחשב עבור כל מספר מילים 
+\begin_inset Formula $c$
+\end_inset
+
+ שנמצאות ב 
+\begin_inset Formula $corpus$
+\end_inset
+
+: נשים לב כי קיבלנו טור טלסקופי וכל האיברים מצטמצמים למעט האיבר הראשון והאחרון
+ -
+\begin_inset Formula 
+\[
+\sum_{c=1}^{C_{max}}\frac{(c+1)N_{c+1}}{N_{c}\cdot N}\cdot N_{c}=\frac{1}{N}\cdot\left(\sum_{c=1}^{C_{max}}\frac{(c+1)N_{c+1}}{N_{c}}\cdot N_{c}\right)=\frac{1}{N}\cdot\left(\sum_{c=1}^{C_{max}}(c+1)N_{c+1}\right)=
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\frac{1}{N}\cdot\left(\sum_{c=1}^{C_{max+1}}c\cdot N_{c+1}\right)=\frac{1}{N}\cdot\left(\sum_{c=2}^{C_{max+1}}c\cdot N_{c+1}-N_{1}\right)=\frac{N-N_{1}}{N}=1-punseen
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+נכתוב את המודל:
+\begin_inset Formula 
+\[
+q_{add-1}(w)=\frac{c+1}{N+\sum_{d=1}^{C_{max}}N_{d}}
+\]
+
+\end_inset
+
+ כאשר 
+\begin_inset Formula $MLE=\frac{c}{N}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+ומתקיים: 
+\begin_inset Formula 
+\[
+\frac{c+1}{N+\sum_{d=1}^{C_{max}}N_{d}}<MLE=\frac{c}{N}\iff N\cdot c+N<N\cdot c+c\cdot\sum_{d=1}^{C_{max}}N_{d}\iff N<c\cdot\sum_{d=1}^{C_{max}}N_{d}
+\]
+
+\end_inset
+
+ מסעיף א, נובע כי לכל 
+\begin_inset Formula $d<c_{max}$
+\end_inset
+
+ מתקיים כי 
+\begin_inset Formula $N_{d}>0$
+\end_inset
+
+ ולכן בפרט מתקיים כי 
+\begin_inset Formula $\sum_{d=1}^{C_{max}}N_{d}>0$
+\end_inset
+
+ ולכן: 
+\begin_inset Formula 
+\[
+\iff\frac{N}{\sum_{d=1}^{C_{max}}N_{d}}<c
+\]
+
+\end_inset
+
+ כעת נסמן 
+\begin_inset Formula $\mu=\frac{N}{\sum_{d=1}^{C_{max}}N_{d}}$
+\end_inset
+
+ ונובע ממה שחישבנו כי עבור מילה 
+\begin_inset Formula $w$
+\end_inset
+
+ שמקיימת 
+\begin_inset Formula $\mu<c(w)$
+\end_inset
+
+ ה 
+\begin_inset Formula $add-one$
+\end_inset
+
+ נמוך מה - 
+\begin_inset Formula $MLE$
+\end_inset
+
+ שלה.
+ 
+\end_layout
+
+\begin_layout Standard
+מכיוון שכל הגרירות היו גרירות דו כיווניות, נקבל כי כל מילה 
+\begin_inset Formula $w$
+\end_inset
+
+ שמקיימת 
+\begin_inset Formula $c(w)<\mu$
+\end_inset
+
+ הא
+\begin_inset Quotes erd
+\end_inset
+
+ש ההפוך מתקיים ולכן הגבול הנדרש בשאלה מתקיים גם הוא כנדרש.
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נראה כי מה שכתבנו בסעיף ב לא בהכרח מתקיים עבור 
+\begin_inset Formula $smoothed\ Good-Turing$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+כלומר קיים 
+\begin_inset Formula $courpos-V$
+\end_inset
+
+ כך שעבור מילה 
+\begin_inset Formula $w\in V$
+\end_inset
+
+ מתקיים: 
+\begin_inset Formula 
+\[
+c(w)<\mu=\frac{N}{\sum_{d=1}^{C_{\max}}N_{d}}
+\]
+
+\end_inset
+
+אך 
+\begin_inset Formula 
+\[
+\frac{(C(w)+1)N_{C(w)+1}}{N_{C(w)}\cdot C}\leq\frac{C(w)}{N}
+\]
+
+\end_inset
+
+נגדר את 
+\begin_inset Formula $V$
+\end_inset
+
+ להיות 
+\begin_inset Formula $V=\{the,the,an,a,is\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ואנו נקבל: 
+\begin_inset Formula 
+\[
+N=5,\sum_{d=1}^{2}N_{d}=4\Rightarrow\mu=\frac{5}{4}
+\]
+
+\end_inset
+
+ ועבור המילה 
+\begin_inset Formula $is$
+\end_inset
+
+ נקבל כי:
+\begin_inset Formula 
+\[
+\frac{C(w)N_{2}}{N_{1}\cdot N}=\frac{2\cdot1}{3\cdot5}=\frac{2}{15}\leq\frac{1}{5}=\frac{C(w)}{N}
+\]
+
+\end_inset
+
+ ואכן 
+\begin_inset Formula $smoothed\ Good-Turing$
+\end_inset
+
+ לא מקיים את סעיף ב כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+נוסחת מודל ה 
+\begin_inset Formula $trigram$
+\end_inset
+
+ היא הנוסחה הבאה: 
+\begin_inset Formula 
+\[
+p\left(x_{i}\mid x_{i-1}\ldots x_{0}\right)=\prod_{i=1}^{n}p\left(x_{i}\mid x_{i-1},x_{i-2}\right)
+\]
+
+\end_inset
+
+המודל מניח כי מתקיימת אי תלות בין שתי המילים הקודמות 
+\begin_inset Formula $x_{i-1},x_{i-2}$
+\end_inset
+
+ לבין שאר המילים שבמודל 
+\begin_inset Formula $x_{0}...x_{i-3}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+המודל חוזה בדרך הבאה - הוא סופר את מפר ההופעות של שלשת המילים יחד חלקי ההופעות
+ של כל המילים ב 
+\begin_inset Formula $corpus$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+משפט באנגלית: 
+\begin_inset Formula $"The\ dogs\ are"\ VS\ "The\ dogs\ is"$
+\end_inset
+
+
+\series default
+, המודל יצליח לזהות כי המילה הנכונה העוקבת היא 
+\begin_inset Formula $are$
+\end_inset
+
+ ולא 
+\begin_inset Formula $is$
+\end_inset
+
+ צשום שהוא מסתכל על שתי המילים האחרונות ומסתכל על ההסתברות הגבוה ביותר לקבל
+ את המילה השלישית.
+
+\series bold
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+משפט בעברית:
+\series default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+מה את אוכלת
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $VS$
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+מה את אוכל
+\begin_inset Quotes erd
+\end_inset
+
+.
+ המודל יצליח לחזות כי המילה הנכונה היא 
+\begin_inset Quotes eld
+\end_inset
+
+אוכלת
+\begin_inset Quotes erd
+\end_inset
+
+, ובהתאם לכך המשפט הראשון הוא הנכון.
+ בהינתן ההסתברות שלה להופיע אחרי שתי המילים 
+\begin_inset Quotes eld
+\end_inset
+
+מה את
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+משפט באנגלית: 
+\begin_inset Formula 
+\[
+"They\ didn't\ know\ how\ much\ \boldsymbol{their}\ help\ was\ needed"\ \ VS\ \ "They\ didn't\ know\ how\ much\ \boldsymbol{his}\ help\ was\ needed"
+\]
+
+\end_inset
+
+
+\series default
+ מכיוון שהמודל מסתכל רק על שתי המילים האחרונות 
+\begin_inset Formula $how\ much$
+\end_inset
+
+ הוא לא יידע אם המילה שוא צריך להשלים )או המילה הנכונה( היא 
+\begin_inset Formula $thier$
+\end_inset
+
+ או 
+\begin_inset Formula $his$
+\end_inset
+
+ ולכן הוא ייכשל.
+
+\series bold
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+משפט בעברית:
+\series default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+אתה לא רוצה לבצע את המוטל 
+\series bold
+עליך
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $VS$
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+אתה לא רוצה לבצע את המוטל 
+\series bold
+עלייך
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+, במקרה זה המודל לא ידע לחזות את המילה הנכונה משום שהוא מסתכל על שתי המילים
+ האחרונות 
+\begin_inset Quotes eld
+\end_inset
+
+את המוטל
+\begin_inset Quotes erd
+\end_inset
+
+ והוא לא יודע אם צריך להשלים צורת זכר או צורת נקבה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הדוגמאות הדרושות:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור 
+\numeric on
+2
+\numeric off
+ מילים: 
+\series default
+חם מאד קשה
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור 
+\numeric on
+3
+\numeric off
+ מילים: 
+\series default
+את לא יותר חם 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+עבור 
+\numeric on
+4
+\numeric off
+ מילים: 
+\series default
+היום לא ניתן לסדר מחר
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+המסקנה היא 
+\series default
+כי עבור מודל מרקוב מסדר 
+\begin_inset Formula $n$
+\end_inset
+
+, ככל ש 
+\begin_inset Formula $n$
+\end_inset
+
+ גבוה יותר אנו נצליח לחזות בסיכוי גבוה יותר את המילה הנכונה, משום שכפי שנוכחנו
+ לראות ככל שמסתכלים אחורה יותר, כך יותר קשה למצוא משפט לא הגיוני.
+ לכן המודל אולי לא יצליח בחלק מהמשפטים, אך אלו יהיו משפטים נדירים.
+ 
+\end_layout
+
+\begin_layout Part
+פרקטי:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+המילה הבאה שהמודל חזה היא: 
+\begin_inset Formula $the$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א( 
+\end_layout
+
+\begin_layout Enumerate
+ההסתברות לקבל את משפט
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+היא: 
+\begin_inset Formula $-inf$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+ההסתברות לקבל את משפט
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+היא: 
+\begin_inset Formula $-29.714080217781863$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ב( 
+\end_layout
+
+\begin_layout Standard
+ה 
+\begin_inset Formula $perplexity$
+\end_inset
+
+ של המשפטים = 
+\begin_inset Formula $inf$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $linear\ interpolation\ smoothing$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+ההסתברות לקבל את המשפט הראשון היא: 
+\begin_inset Formula $-36.197090487266074$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+ההסבתרות לקבל את המשפט השני היא: 
+\begin_inset Formula $-31.03218010933515$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ה 
+\begin_inset Formula $perplexity$
+\end_inset
+
+ של המשפטים = 
+\begin_inset Formula $271.0868410925168$
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document
